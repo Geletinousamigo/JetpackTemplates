@@ -58,5 +58,13 @@ gradlePlugin {
             id = "template.android.lint"
             implementationClass = "AndroidLintConventionPlugin"
         }
+        register("tvLibraryCompose") {
+            id = "template.android.tv.library.compose"
+            implementationClass = "TVLibraryComposeConventionPlugin"
+        }
+        register("tvApplicationCompose") {
+            id = "template.android.tv.application.compose"
+            implementationClass = "TVApplicationComposeConventionPlugin"
+        }
     }
 }

@@ -1,12 +1,13 @@
 plugins {
     id("template.android.application")
     id("template.android.application.compose")
+    id("template.android.tv.application.compose")
     id("template.android.hilt")
 }
 
 android {
     namespace = "com.nikhil.jetpacktemplates"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.nikhil.jetpacktemplates"

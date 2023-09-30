@@ -18,3 +18,4 @@ rootProject.name = "JetpackTemplates"
 include(":app")
 include(":core:designsystem")
 include(":core:common")
+

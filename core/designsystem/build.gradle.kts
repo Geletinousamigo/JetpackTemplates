@@ -1,6 +1,7 @@
 plugins {
     id("template.android.library")
     id("template.android.library.compose")
+    id("template.android.tv.library.compose")
 }
 
 android {
